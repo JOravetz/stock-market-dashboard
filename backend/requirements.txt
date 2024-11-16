@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+websockets
+aiohttp
+pytz
+alpaca-trade-api
+pandas
+python-dotenv

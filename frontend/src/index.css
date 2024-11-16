@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Dark mode overrides */
+.dark input[type="range"] {
+  background-color: #374151;
+  &::-webkit-slider-thumb {
+    background-color: #60A5FA;
+  }
+  &::-moz-range-thumb {
+    background-color: #60A5FA;
+  }
+}
+
+.dark select option {
+  background-color: #1F2937;
+  color: #E5E7EB;
+}
+
+/* Transitions */
+.transition-colors {
+  transition-property: background-color, border-color, color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
